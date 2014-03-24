@@ -1,4 +1,5 @@
 Wahrnit::Application.routes.draw do
+  get "landings/index"
   resources :posts
 
   resources :comments
